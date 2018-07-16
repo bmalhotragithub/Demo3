@@ -1,4 +1,4 @@
-Demo3:
+test3:
   build: .
   ports:
     - "80:1030"
