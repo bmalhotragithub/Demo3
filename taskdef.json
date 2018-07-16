@@ -1,9 +1,9 @@
 {
-    "family": "Demo1",
+    "family": "Demo3",
     "containerDefinitions": [
         {
             "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "Demo1",
+            "name": "Demo3",
             "cpu": 10,
             "memory": 256,
             "essential": true,
