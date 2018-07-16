@@ -1,0 +1,18 @@
+{
+    "family": "Demo1",
+    "containerDefinitions": [
+        {
+            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
+            "name": "Demo1",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 1030,
+                    "hostPort": 80
+                }
+            ]
+        }
+    ]
+}

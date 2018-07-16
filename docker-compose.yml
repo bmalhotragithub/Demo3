@@ -1,0 +1,4 @@
+Demo1:
+  build: .
+  ports:
+    - "80:1030"
